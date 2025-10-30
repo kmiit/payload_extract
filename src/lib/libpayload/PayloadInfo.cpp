@@ -67,6 +67,7 @@ namespace skkk {
 					return false;
 				}
 			}
+			return true;
 		}
 		LOGCE("File: payload.bin not found!");
 		return false;
