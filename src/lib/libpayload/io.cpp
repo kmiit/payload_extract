@@ -22,7 +22,6 @@ namespace skkk {
 			}
 			offset += read_count;
 			len -= read_count;
-			buf = static_cast<char *>(buf) + read_count;
 		}
 		return 0;
 	}
